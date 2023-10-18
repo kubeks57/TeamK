@@ -1,0 +1,6 @@
+12:29:45 **** Incremental Build of configuration Default for project Project_template ****
+make all 
+make: Nothing to be done for 'all'.
+
+12:29:46 Build Finished. 0 errors, 0 warnings. (took 619ms)
+
