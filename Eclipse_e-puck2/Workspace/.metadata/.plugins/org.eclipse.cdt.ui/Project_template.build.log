@@ -1,6 +1,56 @@
-13:53:20 **** Incremental Build of configuration Default for project Project_template ****
+10:53:04 **** Incremental Build of configuration Default for project Project_template ****
 make all 
-make: Nothing to be done for 'all'.
+[1;34mCompiling main.c[0m
+main.c:26:5: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+ int main()
+     ^~~~
+main.c: In function 'main':
+main.c:102:53: warning: unknown conversion type character '\x0a' in format [-Wformat=]
+       str_length = sprintf(str, "Battery state = %d%\n",batt);
+                                                     ^~
+main.c:112:53: warning: unknown conversion type character '\x0a' in format [-Wformat=]
+       str_length = sprintf(str, "Battery state = %d%\n",batt);
+                                                     ^~
+main.c:122:53: warning: unknown conversion type character '\x0a' in format [-Wformat=]
+       str_length = sprintf(str, "Battery state = %d%\n",batt);
+                                                     ^~
+main.c:77:9: warning: unused variable 'value' [-Wunused-variable]
+     int value = 10;
+         ^~~~~
+main.c:67:10: warning: unused variable 'selector' [-Wunused-variable]
+      int selector = get_selector();
+          ^~~~~~~~
+main.c:64:10: warning: unused variable 'prox7' [-Wunused-variable]
+      int prox7 = get_prox(7);
+          ^~~~~
+main.c:63:10: warning: unused variable 'prox6' [-Wunused-variable]
+      int prox6 = get_prox(6);
+          ^~~~~
+main.c:62:10: warning: unused variable 'prox5' [-Wunused-variable]
+      int prox5 = get_prox(5);
+          ^~~~~
+main.c:61:10: warning: unused variable 'prox4' [-Wunused-variable]
+      int prox4 = get_prox(4);
+          ^~~~~
+main.c:60:10: warning: unused variable 'prox3' [-Wunused-variable]
+      int prox3 = get_prox(3);
+          ^~~~~
+main.c:59:10: warning: unused variable 'prox2' [-Wunused-variable]
+      int prox2 = get_prox(2);
+          ^~~~~
+main.c:58:10: warning: unused variable 'prox1' [-Wunused-variable]
+      int prox1 = get_prox(1);
+          ^~~~~
+[1;34mLinking build/Project_template.elf[0m
+[1;34mCreating build/Project_template.hex[0m
+[1;34mCreating build/Project_template.bin[0m
+[1;34mCreating build/Project_template.dmp[0m
 
-13:53:20 Build Finished. 0 errors, 0 warnings. (took 562ms)
+   text	   data	    bss	    dec	    hex	filename
+  81716	   3796	  19564	 105076	  19a74	build/Project_template.elf
+[1;34mCreating build/Project_template.list[0m
+
+[1;34mDone[0m
+
+10:53:05 Build Finished. 0 errors, 13 warnings. (took 990ms)
 

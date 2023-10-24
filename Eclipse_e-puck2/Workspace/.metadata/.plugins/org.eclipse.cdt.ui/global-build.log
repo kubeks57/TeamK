@@ -1,261 +1,317 @@
-13:17:12 **** Incremental Build of configuration Default for project Project_template ****
-make all 
-[1;34mCompiling main.c[0m
-[1;34mLinking build/Project_template.elf[0m
-[1;34mCreating build/Project_template.hex[0m
-[1;34mCreating build/Project_template.bin[0m
-[1;34mCreating build/Project_template.dmp[0m
-
-   text	   data	    bss	    dec	    hex	filename
-  48276	   2948	   6252	  57476	   e084	build/Project_template.elf
-[1;34mCreating build/Project_template.list[0m
-
-[1;34mDone[0m
-13:17:40 **** Incremental Build of configuration Default for project Project_template ****
+10:34:56 **** Incremental Build of configuration Default for project Project_template ****
 make all 
 make: Nothing to be done for 'all'.
-13:18:51 **** Incremental Build of configuration Default for project Project_template ****
-make all 
-[1;34mCompiling main.c[0m
-[1;34mLinking build/Project_template.elf[0m
-[1;34mCreating build/Project_template.hex[0m
-[1;34mCreating build/Project_template.bin[0m
-[1;34mCreating build/Project_template.dmp[0m
-
-   text	   data	    bss	    dec	    hex	filename
-  48276	   2948	   6252	  57476	   e084	build/Project_template.elf
-[1;34mCreating build/Project_template.list[0m
-
-[1;34mDone[0m
-13:18:54 **** Incremental Build of configuration Default for project Project_template ****
+10:35:00 **** Incremental Build of configuration Default for project Project_template ****
 make all 
 make: Nothing to be done for 'all'.
-13:21:24 **** Incremental Build of configuration Default for project Project_template ****
-make all 
-[1;34mCompiling main.c[0m
-[1;34mLinking build/Project_template.elf[0m
-[1;34mCreating build/Project_template.hex[0m
-[1;34mCreating build/Project_template.bin[0m
-[1;34mCreating build/Project_template.dmp[0m
-
-   text	   data	    bss	    dec	    hex	filename
-  48308	   2948	   6252	  57508	   e0a4	build/Project_template.elf
-[1;34mCreating build/Project_template.list[0m
-
-[1;34mDone[0m
-13:21:28 **** Incremental Build of configuration Default for project Project_template ****
+10:36:07 **** Incremental Build of configuration Default for project Project_template ****
 make all 
 make: Nothing to be done for 'all'.
-13:24:29 **** Incremental Build of configuration Default for project Project_template ****
+10:42:06 **** Incremental Build of configuration Default for project Project_template ****
 make all 
 [1;34mCompiling main.c[0m
-[1;34mLinking build/Project_template.elf[0m
-[1;34mCreating build/Project_template.hex[0m
-[1;34mCreating build/Project_template.bin[0m
-[1;34mCreating build/Project_template.dmp[0m
-
-   text	   data	    bss	    dec	    hex	filename
-  48340	   2948	   6252	  57540	   e0c4	build/Project_template.elf
-[1;34mCreating build/Project_template.list[0m
-
-[1;34mDone[0m
-13:24:32 **** Incremental Build of configuration Default for project Project_template ****
-make all 
-make: Nothing to be done for 'all'.
-13:26:56 **** Incremental Build of configuration Default for project Project_template ****
-make all 
-[1;34mCompiling main.c[0m
-[1;34mLinking build/Project_template.elf[0m
-[1;34mCreating build/Project_template.hex[0m
-[1;34mCreating build/Project_template.bin[0m
-[1;34mCreating build/Project_template.dmp[0m
-
-   text	   data	    bss	    dec	    hex	filename
-  48484	   2948	   6252	  57684	   e154	build/Project_template.elf
-[1;34mCreating build/Project_template.list[0m
-
-[1;34mDone[0m
-13:26:59 **** Incremental Build of configuration Default for project Project_template ****
-make all 
-make: Nothing to be done for 'all'.
-13:36:06 **** Incremental Build of configuration Default for project Project_template ****
-make all 
-[1;34mCompiling main.c[0m
+main.c:26:5: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+ int main()
+     ^~~~
 main.c: In function 'main':
-main.c:32:5: error: too few arguments to function 'proximity_start'
-     proximity_start();
-     ^~~~~~~~~~~~~~~
-In file included from main.c:12:0:
-../e-puck2_main-processor/src/sensors/proximity.h:36:6: note: declared here
- void proximity_start(uint8_t mode);
-      ^~~~~~~~~~~~~~~
-make: *** [../e-puck2_main-processor/ChibiOS//os/common/ports/ARMCMx/compilers/GCC/rules.mk:217: build/obj/main.o] Error 1
-"make all" terminated with exit code 2. Build might be incomplete.
-13:36:36 **** Incremental Build of configuration Default for project Project_template ****
-make all 
-[1;34mCompiling main.c[0m
-[1;34mLinking build/Project_template.elf[0m
-[1;34mCreating build/Project_template.hex[0m
-[1;34mCreating build/Project_template.bin[0m
-[1;34mCreating build/Project_template.dmp[0m
-
-   text	   data	    bss	    dec	    hex	filename
-  60276	   3068	  16804	  80148	  13914	build/Project_template.elf
-[1;34mCreating build/Project_template.list[0m
-
-[1;34mDone[0m
-13:36:39 **** Incremental Build of configuration Default for project Project_template ****
-make all 
-make: Nothing to be done for 'all'.
-13:43:25 **** Incremental Build of configuration Default for project Project_template ****
-make all 
-[1;34mCompiling main.c[0m
-main.c: In function 'main':
-main.c:58:9: warning: implicit declaration of function 'delay' [-Wimplicit-function-declaration]
-         delay(1000);
+main.c:102:53: warning: unknown conversion type character '\x0a' in format [-Wformat=]
+       str_length = sprintf(str, "Battery state = %d%\n",batt);
+                                                     ^~
+main.c:112:51: warning: format '%f' expects argument of type 'double', but argument 3 has type 'int' [-Wformat=]
+       str_length = sprintf(str, "Battery state = %f%\n",batt);
+                                                  ~^
+                                                  %d
+main.c:112:53: warning: unknown conversion type character '\x0a' in format [-Wformat=]
+       str_length = sprintf(str, "Battery state = %f%\n",batt);
+                                                     ^~
+main.c:122:53: warning: unknown conversion type character '\x0a' in format [-Wformat=]
+       str_length = sprintf(str, "Battery state = %f%\n",get_battery_percentage());
+                                                     ^~
+main.c:77:9: warning: unused variable 'value' [-Wunused-variable]
+     int value = 10;
          ^~~~~
-main.c:48:5: warning: 'motor_left' is used uninitialized in this function [-Wuninitialized]
-     left_motor_set_speed(motor_left);
-     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-main.c:49:5: warning: 'motor_right' is used uninitialized in this function [-Wuninitialized]
-     right_motor_set_speed(motor_right);
-     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-[1;34mLinking build/Project_template.elf[0m
-build/obj/main.o: In function `main':
-/home/acse-lab/Documents/TeamK/Project_template//main.c:58: undefined reference to `delay'
-collect2: error: ld returned 1 exit status
-make: *** [../e-puck2_main-processor/ChibiOS//os/common/ports/ARMCMx/compilers/GCC/rules.mk:244: build/Project_template.elf] Error 1
-"make all" terminated with exit code 2. Build might be incomplete.
-13:44:05 **** Incremental Build of configuration Default for project Project_template ****
-make all 
-[1;34mCompiling main.c[0m
-main.c: In function 'main':
-main.c:48:5: warning: 'motor_left' is used uninitialized in this function [-Wuninitialized]
-     left_motor_set_speed(motor_left);
-     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-main.c:49:5: warning: 'motor_right' is used uninitialized in this function [-Wuninitialized]
-     right_motor_set_speed(motor_right);
-     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-[1;34mLinking build/Project_template.elf[0m
-[1;34mCreating build/Project_template.hex[0m
-[1;34mCreating build/Project_template.bin[0m
-[1;34mCreating build/Project_template.dmp[0m
-
-   text	   data	    bss	    dec	    hex	filename
-  62084	   3068	  16868	  82020	  14064	build/Project_template.elf
-[1;34mCreating build/Project_template.list[0m
-
-[1;34mDone[0m
-13:44:12 **** Incremental Build of configuration Default for project Project_template ****
-make all 
-make: Nothing to be done for 'all'.
-13:44:16 **** Incremental Build of configuration Default for project Project_template ****
-make all 
-make: Nothing to be done for 'all'.
-13:47:58 **** Incremental Build of configuration Default for project Project_template ****
-make all 
-[1;34mCompiling main.c[0m
-main.c: In function 'main':
-main.c:61:9: error: expected ';' before 'motor_right'
-         motor_right = 1000;
-         ^~~~~~~~~~~
+main.c:67:10: warning: unused variable 'selector' [-Wunused-variable]
+      int selector = get_selector();
+          ^~~~~~~~
+main.c:168:1: error: expected declaration or statement at end of input
+ }
+ ^
+main.c:163:11: warning: unused variable '__stack_chk_guard' [-Wunused-variable]
+ uintptr_t __stack_chk_guard = STACK_CHK_GUARD;
+           ^~~~~~~~~~~~~~~~~
+At top level:
+main.c:165:6: warning: '__stack_chk_fail' defined but not used [-Wunused-function]
+ void __stack_chk_fail(void)
+      ^~~~~~~~~~~~~~~~
 make: *** [../e-puck2_main-processor/ChibiOS//os/common/ports/ARMCMx/compilers/GCC/rules.mk:217: build/obj/main.o] Error 1
 "make all" terminated with exit code 2. Build might be incomplete.
-13:48:08 **** Incremental Build of configuration Default for project Project_template ****
+10:42:38 **** Incremental Build of configuration Default for project Project_template ****
 make all 
 [1;34mCompiling main.c[0m
+main.c:26:5: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+ int main()
+     ^~~~
 main.c: In function 'main':
-main.c:48:5: warning: 'motor_left' is used uninitialized in this function [-Wuninitialized]
-     left_motor_set_speed(motor_left);
-     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-main.c:49:5: warning: 'motor_right' is used uninitialized in this function [-Wuninitialized]
-     right_motor_set_speed(motor_right);
-     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+main.c:102:53: warning: unknown conversion type character '\x0a' in format [-Wformat=]
+       str_length = sprintf(str, "Battery state = %d%\n",batt);
+                                                     ^~
+main.c:112:51: warning: format '%f' expects argument of type 'double', but argument 3 has type 'int' [-Wformat=]
+       str_length = sprintf(str, "Battery state = %f%\n",batt);
+                                                  ~^
+                                                  %d
+main.c:112:53: warning: unknown conversion type character '\x0a' in format [-Wformat=]
+       str_length = sprintf(str, "Battery state = %f%\n",batt);
+                                                     ^~
+main.c:122:53: warning: unknown conversion type character '\x0a' in format [-Wformat=]
+       str_length = sprintf(str, "Battery state = %f%\n",get_battery_percentage());
+                                                     ^~
+main.c:77:9: warning: unused variable 'value' [-Wunused-variable]
+     int value = 10;
+         ^~~~~
+main.c:67:10: warning: unused variable 'selector' [-Wunused-variable]
+      int selector = get_selector();
+          ^~~~~~~~
+main.c:168:1: error: expected declaration or statement at end of input
+ }
+ ^
+main.c:163:11: warning: unused variable '__stack_chk_guard' [-Wunused-variable]
+ uintptr_t __stack_chk_guard = STACK_CHK_GUARD;
+           ^~~~~~~~~~~~~~~~~
+At top level:
+main.c:165:6: warning: '__stack_chk_fail' defined but not used [-Wunused-function]
+ void __stack_chk_fail(void)
+      ^~~~~~~~~~~~~~~~
+make: *** [../e-puck2_main-processor/ChibiOS//os/common/ports/ARMCMx/compilers/GCC/rules.mk:217: build/obj/main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+10:43:21 **** Incremental Build of configuration Default for project Project_template ****
+make all 
+[1;34mCompiling main.c[0m
+main.c:26:5: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+ int main()
+     ^~~~
+main.c: In function 'main':
+main.c:102:53: warning: unknown conversion type character '\x0a' in format [-Wformat=]
+       str_length = sprintf(str, "Battery state = %d%\n",batt);
+                                                     ^~
+main.c:112:53: warning: unknown conversion type character '\x0a' in format [-Wformat=]
+       str_length = sprintf(str, "Battery state = %d%\n",batt);
+                                                     ^~
+main.c:122:53: warning: unknown conversion type character '\x0a' in format [-Wformat=]
+       str_length = sprintf(str, "Battery state = %d%\n",batt);
+                                                     ^~
+main.c:77:9: warning: unused variable 'value' [-Wunused-variable]
+     int value = 10;
+         ^~~~~
+main.c:67:10: warning: unused variable 'selector' [-Wunused-variable]
+      int selector = get_selector();
+          ^~~~~~~~
+main.c:168:1: error: expected declaration or statement at end of input
+ }
+ ^
+main.c:163:11: warning: unused variable '__stack_chk_guard' [-Wunused-variable]
+ uintptr_t __stack_chk_guard = STACK_CHK_GUARD;
+           ^~~~~~~~~~~~~~~~~
+At top level:
+main.c:165:6: warning: '__stack_chk_fail' defined but not used [-Wunused-function]
+ void __stack_chk_fail(void)
+      ^~~~~~~~~~~~~~~~
+make: *** [../e-puck2_main-processor/ChibiOS//os/common/ports/ARMCMx/compilers/GCC/rules.mk:217: build/obj/main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+10:44:16 **** Incremental Build of configuration Default for project Project_template ****
+make all 
+[1;34mCompiling main.c[0m
+main.c:26:5: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+ int main()
+     ^~~~
+main.c: In function 'main':
+main.c:102:53: warning: unknown conversion type character '\x0a' in format [-Wformat=]
+       str_length = sprintf(str, "Battery state = %d%\n",batt);
+                                                     ^~
+main.c:112:53: warning: unknown conversion type character '\x0a' in format [-Wformat=]
+       str_length = sprintf(str, "Battery state = %d%\n",batt);
+                                                     ^~
+main.c:122:53: warning: unknown conversion type character '\x0a' in format [-Wformat=]
+       str_length = sprintf(str, "Battery state = %d%\n",batt);
+                                                     ^~
+main.c:168:1: error: expected declaration or statement at end of input
+ }
+ ^
+main.c:163:11: warning: unused variable '__stack_chk_guard' [-Wunused-variable]
+ uintptr_t __stack_chk_guard = STACK_CHK_GUARD;
+           ^~~~~~~~~~~~~~~~~
+main.c:77:9: warning: unused variable 'value' [-Wunused-variable]
+     int value = 10;
+         ^~~~~
+main.c:67:10: warning: unused variable 'selector' [-Wunused-variable]
+      int selector = get_selector();
+          ^~~~~~~~
+main.c:168:1: error: expected declaration or statement at end of input
+ }
+ ^
+At top level:
+main.c:165:6: warning: '__stack_chk_fail' defined but not used [-Wunused-function]
+ void __stack_chk_fail(void)
+      ^~~~~~~~~~~~~~~~
+make: *** [../e-puck2_main-processor/ChibiOS//os/common/ports/ARMCMx/compilers/GCC/rules.mk:217: build/obj/main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+10:44:40 **** Incremental Build of configuration Default for project Project_template ****
+make all 
+[1;34mCompiling main.c[0m
+main.c:26:5: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+ int main()
+     ^~~~
+main.c: In function 'main':
+main.c:102:53: warning: unknown conversion type character '\x0a' in format [-Wformat=]
+       str_length = sprintf(str, "Battery state = %d%\n",batt);
+                                                     ^~
+main.c:112:53: warning: unknown conversion type character '\x0a' in format [-Wformat=]
+       str_length = sprintf(str, "Battery state = %d%\n",batt);
+                                                     ^~
+main.c:122:53: warning: unknown conversion type character '\x0a' in format [-Wformat=]
+       str_length = sprintf(str, "Battery state = %d%\n",batt);
+                                                     ^~
+main.c:77:9: warning: unused variable 'value' [-Wunused-variable]
+     int value = 10;
+         ^~~~~
+main.c:67:10: warning: unused variable 'selector' [-Wunused-variable]
+      int selector = get_selector();
+          ^~~~~~~~
 [1;34mLinking build/Project_template.elf[0m
 [1;34mCreating build/Project_template.hex[0m
 [1;34mCreating build/Project_template.bin[0m
 [1;34mCreating build/Project_template.dmp[0m
 
    text	   data	    bss	    dec	    hex	filename
-  62084	   3068	  16868	  82020	  14064	build/Project_template.elf
+  81652	   3796	  19564	 105012	  19a34	build/Project_template.elf
 [1;34mCreating build/Project_template.list[0m
 
 [1;34mDone[0m
-13:48:13 **** Incremental Build of configuration Default for project Project_template ****
+10:44:50 **** Incremental Build of configuration Default for project Project_template ****
 make all 
 make: Nothing to be done for 'all'.
-13:49:18 **** Incremental Build of configuration Default for project Project_template ****
+10:47:50 **** Incremental Build of configuration Default for project Project_template ****
 make all 
 [1;34mCompiling main.c[0m
+main.c:26:5: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+ int main()
+     ^~~~
 main.c: In function 'main':
-main.c:47:9: warning: unused variable 'motor_right' [-Wunused-variable]
-     int motor_right;
-         ^~~~~~~~~~~
-main.c:46:9: warning: unused variable 'motor_left' [-Wunused-variable]
-     int motor_left;
-         ^~~~~~~~~~
+main.c:102:53: warning: unknown conversion type character '\x0a' in format [-Wformat=]
+       str_length = sprintf(str, "Battery state = %d%\n",batt);
+                                                     ^~
+main.c:112:53: warning: unknown conversion type character '\x0a' in format [-Wformat=]
+       str_length = sprintf(str, "Battery state = %d%\n",batt);
+                                                     ^~
+main.c:122:53: warning: unknown conversion type character '\x0a' in format [-Wformat=]
+       str_length = sprintf(str, "Battery state = %d%\n",batt);
+                                                     ^~
+main.c:77:9: warning: unused variable 'value' [-Wunused-variable]
+     int value = 10;
+         ^~~~~
+main.c:67:10: warning: unused variable 'selector' [-Wunused-variable]
+      int selector = get_selector();
+          ^~~~~~~~
 [1;34mLinking build/Project_template.elf[0m
 [1;34mCreating build/Project_template.hex[0m
 [1;34mCreating build/Project_template.bin[0m
 [1;34mCreating build/Project_template.dmp[0m
 
    text	   data	    bss	    dec	    hex	filename
-  62084	   3068	  16868	  82020	  14064	build/Project_template.elf
+  81652	   3796	  19564	 105012	  19a34	build/Project_template.elf
 [1;34mCreating build/Project_template.list[0m
 
 [1;34mDone[0m
-13:49:25 **** Incremental Build of configuration Default for project Project_template ****
+10:48:00 **** Incremental Build of configuration Default for project Project_template ****
 make all 
 make: Nothing to be done for 'all'.
-13:51:58 **** Incremental Build of configuration Default for project Project_template ****
+10:48:03 **** Incremental Build of configuration Default for project Project_template ****
+make all 
+make: Nothing to be done for 'all'.
+10:49:06 **** Incremental Build of configuration Default for project Project_template ****
 make all 
 [1;34mCompiling main.c[0m
+main.c:26:5: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+ int main()
+     ^~~~
 main.c: In function 'main':
-main.c:47:9: warning: unused variable 'motor_right' [-Wunused-variable]
-     int motor_right;
-         ^~~~~~~~~~~
-main.c:46:9: warning: unused variable 'motor_left' [-Wunused-variable]
-     int motor_left;
-         ^~~~~~~~~~
+main.c:102:53: warning: unknown conversion type character '\x0a' in format [-Wformat=]
+       str_length = sprintf(str, "Battery state = %d%\n",batt);
+                                                     ^~
+main.c:112:53: warning: unknown conversion type character '\x0a' in format [-Wformat=]
+       str_length = sprintf(str, "Battery state = %d%\n",batt);
+                                                     ^~
+main.c:122:53: warning: unknown conversion type character '\x0a' in format [-Wformat=]
+       str_length = sprintf(str, "Battery state = %d%\n",batt);
+                                                     ^~
+main.c:77:9: warning: unused variable 'value' [-Wunused-variable]
+     int value = 10;
+         ^~~~~
+main.c:67:10: warning: unused variable 'selector' [-Wunused-variable]
+      int selector = get_selector();
+          ^~~~~~~~
 [1;34mLinking build/Project_template.elf[0m
 [1;34mCreating build/Project_template.hex[0m
 [1;34mCreating build/Project_template.bin[0m
 [1;34mCreating build/Project_template.dmp[0m
 
    text	   data	    bss	    dec	    hex	filename
-  62084	   3068	  16868	  82020	  14064	build/Project_template.elf
+  81700	   3796	  19564	 105060	  19a64	build/Project_template.elf
 [1;34mCreating build/Project_template.list[0m
 
 [1;34mDone[0m
-13:52:18 **** Incremental Build of configuration Default for project Project_template ****
+10:49:09 **** Incremental Build of configuration Default for project Project_template ****
 make all 
 make: Nothing to be done for 'all'.
-13:52:58 **** Incremental Build of configuration Default for project Project_template ****
+10:53:04 **** Incremental Build of configuration Default for project Project_template ****
 make all 
 [1;34mCompiling main.c[0m
+main.c:26:5: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+ int main()
+     ^~~~
 main.c: In function 'main':
-main.c:47:9: warning: unused variable 'motor_right' [-Wunused-variable]
-     int motor_right;
-         ^~~~~~~~~~~
-main.c:46:9: warning: unused variable 'motor_left' [-Wunused-variable]
-     int motor_left;
-         ^~~~~~~~~~
+main.c:102:53: warning: unknown conversion type character '\x0a' in format [-Wformat=]
+       str_length = sprintf(str, "Battery state = %d%\n",batt);
+                                                     ^~
+main.c:112:53: warning: unknown conversion type character '\x0a' in format [-Wformat=]
+       str_length = sprintf(str, "Battery state = %d%\n",batt);
+                                                     ^~
+main.c:122:53: warning: unknown conversion type character '\x0a' in format [-Wformat=]
+       str_length = sprintf(str, "Battery state = %d%\n",batt);
+                                                     ^~
+main.c:77:9: warning: unused variable 'value' [-Wunused-variable]
+     int value = 10;
+         ^~~~~
+main.c:67:10: warning: unused variable 'selector' [-Wunused-variable]
+      int selector = get_selector();
+          ^~~~~~~~
+main.c:64:10: warning: unused variable 'prox7' [-Wunused-variable]
+      int prox7 = get_prox(7);
+          ^~~~~
+main.c:63:10: warning: unused variable 'prox6' [-Wunused-variable]
+      int prox6 = get_prox(6);
+          ^~~~~
+main.c:62:10: warning: unused variable 'prox5' [-Wunused-variable]
+      int prox5 = get_prox(5);
+          ^~~~~
+main.c:61:10: warning: unused variable 'prox4' [-Wunused-variable]
+      int prox4 = get_prox(4);
+          ^~~~~
+main.c:60:10: warning: unused variable 'prox3' [-Wunused-variable]
+      int prox3 = get_prox(3);
+          ^~~~~
+main.c:59:10: warning: unused variable 'prox2' [-Wunused-variable]
+      int prox2 = get_prox(2);
+          ^~~~~
+main.c:58:10: warning: unused variable 'prox1' [-Wunused-variable]
+      int prox1 = get_prox(1);
+          ^~~~~
 [1;34mLinking build/Project_template.elf[0m
 [1;34mCreating build/Project_template.hex[0m
 [1;34mCreating build/Project_template.bin[0m
 [1;34mCreating build/Project_template.dmp[0m
 
    text	   data	    bss	    dec	    hex	filename
-  62084	   3068	  16868	  82020	  14064	build/Project_template.elf
+  81716	   3796	  19564	 105076	  19a74	build/Project_template.elf
 [1;34mCreating build/Project_template.list[0m
 
 [1;34mDone[0m
-13:53:03 **** Incremental Build of configuration Default for project Project_template ****
-make all 
-make: Nothing to be done for 'all'.
-13:53:13 **** Incremental Build of configuration Default for project Project_template ****
-make all 
-make: Nothing to be done for 'all'.
-13:53:20 **** Incremental Build of configuration Default for project Project_template ****
-make all 
-make: Nothing to be done for 'all'.
